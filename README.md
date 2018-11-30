@@ -30,6 +30,14 @@
 * Leaflet
 * Google Flights
 
+## Creative Process
+
+Sketches:
+
+![alt text](splash_page.jpeg "Website's splash page")
+
+![alt text](results_page.jpeg "Website's results page")
+
 ## Construction
 
 ## Install Instructions
