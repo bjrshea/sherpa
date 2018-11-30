@@ -32,19 +32,23 @@
 
 ## Creative Process
 
-Hand Drawn Sketches:
+#### Hand Drawn Sketches:
 
 ![alt text](splash_page.jpeg "Website's splash page")
 
 ![alt text](results_page.jpeg "Website's results page")
 
-Sketch Mock-ups:
+#### Sketch Mock-ups:
 
 ![alt text](splash_page_1.png "Digital splash page mock")
 
 ![alt text](select_state_modal.png "Digital modal mock")
 
 ![alt text](results_page_1.png "Digital results page mock")
+
+#### Component Tree:
+
+![alt text](component_tree.png "Component tree")
 
 ## Construction
 
