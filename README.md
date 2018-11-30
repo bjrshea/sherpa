@@ -32,11 +32,15 @@
 
 ## Creative Process
 
-Sketches:
+Hand Drawn Sketches:
 
 ![alt text](splash_page.jpeg "Website's splash page")
 
 ![alt text](results_page.jpeg "Website's results page")
+
+Sketch Mock-ups:
+
+![alt text](splash_page_1.png "Digital splash page mock")
 
 ## Construction
 
