@@ -42,6 +42,8 @@ Sketch Mock-ups:
 
 ![alt text](splash_page_1.png "Digital splash page mock")
 
+![alt text](results_page_1.png "Digital results page mock")
+
 ## Construction
 
 ## Install Instructions
