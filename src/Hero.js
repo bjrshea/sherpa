@@ -1,8 +1,12 @@
 import React from 'react';
+import mountains from './assets/images/background.svg'
+import './index.scss';
 
 function Hero() {
   return(
-    <div></div>
+    <div className="background">
+      <img src={mountains} alt="mountains"/>
+    </div>
   );
 }
 
