@@ -1,7 +1,6 @@
 import React from 'react';
 import SearchLocation from './SearchLocation';
-import mountains from './assets/images/background.svg'
-import './index.scss';
+import mountains from './assets/images/background.svg';
 
 function Hero() {
   return(
@@ -14,7 +13,7 @@ function Hero() {
       <SearchLocation/>
     </div>
     <div className="background">
-      <img src={mountains} alt="mountains"/>
+      <img className="mountains" src={mountains} alt="mountains"/>
     </div>
   </div>
   );
