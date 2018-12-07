@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="57px" viewBox="0 0 44 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mock-ups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Splash-Page" transform="translate(-343.000000, -325.000000)">
+            <g id="Group-2" transform="translate(343.000000, 325.000000)">
+                <g id="Group" fill="#D0021B">
+                    <polygon id="Triangle-2" transform="translate(22.000000, 46.000000) scale(1, -1) translate(-22.000000, -46.000000) " points="22 35 38 57 6 57"></polygon>
+                    <ellipse id="Oval-2" cx="22" cy="21" rx="22" ry="21"></ellipse>
+                </g>
+                <circle id="Oval-3" fill="#FFFFFF" cx="22.5" cy="20.5" r="8.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

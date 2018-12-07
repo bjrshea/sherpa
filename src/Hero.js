@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchLocation from './SearchLocation';
 import mountains from './assets/images/background.svg'
 import './index.scss';
 
@@ -8,6 +9,9 @@ function Hero() {
     <div className="logo">
       <h1>Sherpa</h1>
       <h3>Your guide to resorts unknown...</h3>
+    </div>
+    <div>
+      <SearchLocation/>
     </div>
     <div className="background">
       <img src={mountains} alt="mountains"/>
