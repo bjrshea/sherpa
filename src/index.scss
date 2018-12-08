@@ -31,8 +31,14 @@ body {
   justify-content: center;
   width: auto;
   .location-button {
-    height: 3%;
-    width: 3%;
+    height: 5%;
+    width: 5%;
     padding-right: 10px;
+  }
+  .search-input {
+    border-radius: 10px;
+    border: solid #83A8BC 1px;
+    text-align: center;
+    font-size: 14px;
   }
 }

@@ -58,4 +58,23 @@
 
 ## Technologies Used
 
+### Languages, libraries, & frameworks:
+
+* Git
+* HTML
+* Sass
+* JavaScript
+* React
+* Redux
+
+### APIs:
+
+* OpenWeatherMap
+* OpenSnow
+* Firebase
+
+### Other tools:
+
+* Sketch
+
 ## Links
