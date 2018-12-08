@@ -1,5 +1,5 @@
 import React from 'react';
-import location from './assets/images/location.svg'
+import location from './../assets/images/location.svg'
 
 function SearchLocation() {
   return(

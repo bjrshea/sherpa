@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchLocation from './SearchLocation';
-import mountains from './assets/images/background.svg';
+import mountains from './../assets/images/background.svg';
 
 function Hero() {
   return(
