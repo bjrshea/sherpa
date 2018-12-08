@@ -46,13 +46,18 @@
 
 ![alt text](src/assets/images/results_page_1.png "Digital results page mock")
 
-#### Component Tree:
+## Construction
 
 ![alt text](src/assets/images/component_tree.png "Component tree")
 
-## Construction
-
 ## Install Instructions
+
+#### From your desktop directory:
+
+* `git clone https://github.com/bjrshea/sherpa.git`
+* `cd folder_name`
+* `npm install`
+* `npm run start`
 
 ## Contribution Requirements
 
