@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function UserCreds() {
   return(
   <div className="user-creds">
-    <p><span className="sign-up">Sign Up</span> | <span className="sign-in">Sign In</span></p>
+    <p><Link to="/sign-up"><span className="sign-up">Sign Up</span></Link> | <Link to="/sign-in"><span className="sign-in">Sign In</span></Link></p>
   </div>
   );
 }

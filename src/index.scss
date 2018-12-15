@@ -14,6 +14,9 @@ body {
   margin-right: 15px;
   font-family: arial;
   font-size: 12px;
+  a {
+    text-decoration: none;
+  }
   .sign-up {
     color: #D13D28;
     font-weight: bold;
@@ -21,8 +24,11 @@ body {
       cursor: pointer;
     }
   }
-  .sign-in:hover {
-    cursor: pointer;
+  .sign-in {
+    color: black;
+    :hover {
+      cursor: pointer;
+    }
   }
 }
 
