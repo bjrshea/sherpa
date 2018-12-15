@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Hero from './Hero';
 import WebFont from 'webfontloader';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 WebFont.load({
   google: {
@@ -11,9 +12,11 @@ WebFont.load({
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Hero/>
-      </div>
+      <router>
+        <div className="App">
+          <Hero/>
+        </div>
+      </router>
     );
   }
 }
