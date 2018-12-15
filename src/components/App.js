@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Hero from './Hero';
+import Results from './Results';
 import WebFont from 'webfontloader';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
@@ -12,11 +13,12 @@ WebFont.load({
 class App extends Component {
   render() {
     return (
-      <router>
+      <Router>
         <div className="App">
-          <Hero/>
+          <Route exact path="/" component={Hero} />
+          <Route exact path="/results" component={Results} />
         </div>
-      </router>
+      </Router>
     );
   }
 }
