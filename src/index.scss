@@ -65,8 +65,11 @@ body {
   justify-content: center;
   .location-button {
     height: 32px;
-    width: 32x;
-    padding-right: 10px;
+    width: 32px;
+    padding-left: 5px;
+    &:hover {
+      cursor: pointer;
+    }
   }
   .search-input {
     border-radius: 10px;
