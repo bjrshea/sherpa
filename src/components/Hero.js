@@ -21,7 +21,9 @@ function Hero() {
     </div>
     <SearchLocation/>
     <div className="background">
-      <img className="mountains" src={mountains} alt="mountains"/>
+      <div className="container">
+        <img className="mountains" src={mountains} alt="mountains"/>
+      </div>
     </div>
   </div>
   );

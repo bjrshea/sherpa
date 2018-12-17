@@ -1,5 +1,7 @@
 const coordsArray = [];
 console.log(coordsArray);
+const statesArray = [];
+console.log(statesArray);
 
 export function fetchUserInput(inputtedState) {
   return function (dispatch) {
