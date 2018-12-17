@@ -1,17 +1,24 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { fetchUserInput } from './../actions';
 import location from './../assets/images/location.svg'
 
-function handleResults() {
-  console.log("test");
-}
+function SearchLocation(props) {
+  let _inputtedState = null;
 
-function SearchLocation() {
+  function handleResults() {
+    console.log(_inputtedState.value);
+    const { dispatch } = props;
+    dispatch(fetchUserInput(_inputtedState.value))
+  }
+
   return(
   <div className="search">
-    <input className="search-input"placeholder="Find your mountain"/>
-    <img onClick={handleResults} className="location-button" src={location} alt="location icon"/>
+    <input className="search-input" placeholder="Find your mountain" ref={(input) => {_inputtedState = input;}}/>
+    <Link to="/results"><img onClick={handleResults} className="location-button" src={location} alt="location icon"/></Link>
   </div>
   );
 }
 
-export default SearchLocation;
+export default connect()(SearchLocation);
