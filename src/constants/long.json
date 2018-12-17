@@ -1,0 +1,224 @@
+{"mtnId":"bluemountain","name":"Blue Mountain","lat":44.50758},
+{"mtnId":"bolton-valley","name":"Bolton Valley","lat":44.421673},
+{"mtnId":"boreal","name":"Boreal","lat":39.316502},
+{"mtnId":"breck","name":"Breckenridge","lat":39.480724},
+{"mtnId":"brettonwoods","name":"Bretton Woods","lat":44.077122},
+{"mtnId":"brianhead","name":"Brian Head","lat":37.692753},
+{"mtnId":"bridger-bowl","name":"Bridger Bowl","lat":45.817974},
+{"mtnId":"brighton","name":"Brighton","lat":40.620697},
+{"mtnId":"bromley-mountain","name":"Bromley Mountain","lat":43.213402},
+{"mtnId":"burke-mountain","name":"Burke Mountain","lat":44.587898},
+{"mtnId":"buttermilk","name":"Buttermilk","lat":39.206944},
+{"mtnId":"caberfae-peaks","name":"Caberfae Peaks","lat":44.245014},
+{"mtnId":"camelback","name":"Camelback Mountain","lat":41.051389},
+{"mtnId":"cannon","name":"Cannon","lat":44.156452},
+{"mtnId":"cataloochee","name":"Cataloochee","lat":35.562656},
+{"mtnId":"chinapeak","name":"China Peak","lat":37.228348},
+{"mtnId":"copper","name":"Copper Mountain","lat":39.501125},
+{"mtnId":"courchevel","name":"Courchevel - 3 Vallees","lat":45.415},
+{"mtnId":"cranmore-mountain","name":"Cranmore","lat":44.055382},
+{"mtnId":"cransmontana","name":"Crans-Montana","lat":46.3087},
+{"mtnId":"crested-butte","name":"Crested Butte","lat":38.899502},
+{"mtnId":"crystal-mountain","name":"Crystal Mountain","lat":46.9459},
+{"mtnId":"deer-valley","name":"Deer Valley","lat":40.620499},
+{"mtnId":"devils-head","name":"Devil's Head","lat":43.4016},
+{"mtnId":"diamondpeak","name":"Diamond Peak","lat":39.249599},
+{"mtnId":"gore-mountain","name":"Gore Mountain","lat":43.672653},
+{"mtnId":"grand-targhee","name":"Grand Targhee","lat":43.742401},
+{"mtnId":"grouse","name":"Grouse Mountain","lat":49.379292},
+{"mtnId":"gunstock","name":"Gunstock","lat":43.551796},
+{"mtnId":"heavenly","name":"Heavenly","lat":38.936611},
+{"mtnId":"hochfuegen","name":"Hochfügen","lat":47.26889038},
+{"mtnId":"homewood","name":"Homewood","lat":39.063099},
+{"mtnId":"hoodoo","name":"Hoodoo","lat":44.408646},
+{"mtnId":"hunter","name":"Hunter Mountain","lat":42.205029},
+{"mtnId":"ischgl-silvretta-arena","name":"Ischgl - Silvretta","lat":47.010101},
+{"mtnId":"jackson-hole","name":"Jackson Hole","lat":43.588318},
+{"mtnId":"jay-peak","name":"Jay Peak","lat":44.928837},
+{"mtnId":"jiminypeak","name":"Jiminy Peak","lat":42.556477},
+{"mtnId":"june-mountain","name":"June Mountain","lat":37.767796},
+{"mtnId":"keystone","name":"Keystone","lat":39.605011},
+{"mtnId":"killington","name":"Killington","lat":43.619675},
+{"mtnId":"king-pine","name":"King Pine","lat":43.86063},
+{"mtnId":"kirkwood","name":"Kirkwood","lat":38.683231},
+{"mtnId":"kitzbuehel","name":"Kitzbühel","lat":47.446602},
+{"mtnId":"laplagne","name":"La Plagne","lat":45.5064},
+{"mtnId":"larosiere","name":"La Rosière","lat":45.6272},
+{"mtnId":"lesmenuires","name":"Les Menuires","lat":45.3236},
+{"mtnId":"loon","name":"Loon Mountain","lat":44.056583},
+{"mtnId":"loveland","name":"Loveland","lat":39.679993},
+{"mtnId":"mad-river-glen","name":"Mad River Glen","lat":44.201653},
+{"mtnId":"mammoth-lakes","name":"Mammoth Mountain","lat":37.651772},
+{"mtnId":"megeve","name":"Megève","lat":45.8578},
+{"mtnId":"meribel","name":"Meribel","lat":45.3967},
+{"mtnId":"monarch","name":"Monarch Mountain","lat":38.512714},
+{"mtnId":"mount-sunapee","name":"Mount Sunapee","lat":43.341194},
+{"mtnId":"mountsnow","name":"Mount Snow","lat":42.968166},
+{"mtnId":"mt-buller","name":"Mount Buller","lat":-37.1462},
+{"mtnId":"mt-hotham","name":"Mount Hotham","lat":-36.9752},
+{"mtnId":"mt-spokane","name":"Mt Spokane","lat":47.921261},
+{"mtnId":"mtbachelor","name":"Mount Bachelor","lat":44.003559},
+{"mtnId":"mtbrighton","name":"Mt Brighton","lat":42.540783},
+{"mtnId":"mthigh","name":"Mountain High","lat":34.376888},
+{"mtnId":"mthood","name":"Mount Hood","lat":45.331936},
+{"mtnId":"mtrose","name":"Mount Rose","lat":39.3283},
+{"mtnId":"northstar","name":"Northstar","lat":39.275173},
+{"mtnId":"okemo","name":"Okemo","lat":43.401806},
+{"mtnId":"owlshead","name":"Owl's Head","lat":45.074642},
+{"mtnId":"parkcity","name":"Park City","lat":40.651375},
+{"mtnId":"pats-peak","name":"Pats Peak","lat":43.180679},
+{"mtnId":"pico","name":"Pico Mountain","lat":43.663277},
+{"mtnId":"ragged-mountain","name":"Ragged Mountain","lat":43.486305},
+{"mtnId":"red-lodge-mountain","name":"Red Lodge Mountain","lat":45.191021},
+{"mtnId":"red-mountain","name":"Red Mountain","lat":49.105343},
+{"mtnId":"schweitzer","name":"Schweitzer","lat":48.538433},
+{"mtnId":"shawnee-mountain","name":"Shawnee Mountain","lat":41.03688},
+{"mtnId":"shawnee-peak","name":"Shawnee Peak","lat":44.053791},
+{"mtnId":"sierra","name":"Sierra at Tahoe","lat":38.792763},
+{"mtnId":"silver-star","name":"Silver Star","lat":50.438702},
+{"mtnId":"smuggs","name":"Smugglers' Notch","lat":44.589092},
+{"mtnId":"snow-valley","name":"Snow Valley","lat":34.228409},
+{"mtnId":"snowbasin","name":"Snowbasin","lat":41.214596},
+{"mtnId":"snowbird","name":"Snowbird","lat":40.581074},
+{"mtnId":"snowmass","name":"Snowmass","lat":39.198471},
+{"mtnId":"snowshoe","name":"Snowshoe Mountain","lat":38.400002},
+{"mtnId":"soelden","name":"Sölden","lat":46.9702},
+{"mtnId":"solitude","name":"Solitude","lat":40.625648},
+{"mtnId":"squaw","name":"Squaw Valley","lat":39.196045},
+{"mtnId":"st-anton-am-arlberg","name":"St. Anton Am Arlberg","lat":47.127499},
+{"mtnId":"steamboat","name":"Steamboat","lat":40.458214},
+{"mtnId":"stevens","name":"Stevens Pass","lat":47.76046},
+{"mtnId":"stowe","name":"Stowe","lat":44.530502},
+{"mtnId":"stratton","name":"Stratton","lat":43.114017},
+{"mtnId":"sugarbowl","name":"Sugar Bowl","lat":39.305447},
+{"mtnId":"sugarbush","name":"Sugarbush","lat":44.145721},
+{"mtnId":"sugarloaf","name":"Sugarloaf","lat":45.06728},
+{"mtnId":"sun-peaks","name":"Sun Peaks","lat":50.877369},
+{"mtnId":"sunday-river","name":"Sunday River","lat":44.550358},
+{"mtnId":"sunshine-village","name":"Sunshine Village","lat":51.174175},
+{"mtnId":"sunvalley","name":"Sun Valley","lat":43.709999},
+{"mtnId":"tahoe-donner","name":"Tahoe Donner","lat":39.354725},
+{"mtnId":"taos","name":"Taos Ski Valley","lat":36.596199},
+{"mtnId":"telluride","name":"Telluride","lat":37.932961},
+{"mtnId":"tremblant","name":"Mont Tremblant","lat":46.213696},
+{"mtnId":"vail","name":"Vail","lat":39.605026},
+{"mtnId":"verbier","name":"Verbier","lat":46.0935},
+{"mtnId":"waterville","name":"Waterville Valley","lat":43.961613},
+{"mtnId":"whistler-blackcomb","name":"Whistler Blackcomb","lat":50.10693},
+{"mtnId":"whiteface","name":"Whiteface","lat":44.356506},
+{"mtnId":"wildcat","name":"Wildcat","lat":44.264626},
+{"mtnId":"windham","name":"Windham Mountain","lat":42.295597},
+{"mtnId":"winter-park","name":"Winter Park","lat":39.891563},
+{"mtnId":"winterplace","name":"Winterplace","lat":37.59594}]
+,"lng":-80.316116
+,"lng":-72.84948
+,"lng":-120.270203
+,"lng":-106.066238
+,"lng":-71.340408
+,"lng":-112.848129
+,"lng":-110.89814
+,"lng":-111.592041
+,"lng":-72.935013
+,"lng":-71.91745
+,"lng":-106.860474
+,"lng":-85.719765
+,"lng":-75.355
+,"lng":-71.698418
+,"lng":-83.090027
+,"lng":-119.161705
+,"lng":-106.155998
+,"lng":6.6339
+,"lng":-71.116783
+,"lng":7.4674
+,"lng":-106.964821
+,"lng":-121.5802
+,"lng":-111.489555
+,"lng":-89.636703
+,"lng":-119.930199
+,"lng":-74.007172
+,"lng":-111.065201
+,"lng":-123.083099
+,"lng":-71.360092
+,"lng":-119.939629
+,"lng":11.77694416
+,"lng":-120.219498
+,"lng":-121.871513
+,"lng":-74.20874
+,"lng":10.2887
+,"lng":-110.827438
+,"lng":-72.501701
+,"lng":-73.291328
+,"lng":-119.090721
+,"lng":-105.953438
+,"lng":-72.802879
+,"lng":-71.088127
+,"lng":-120.066856
+,"lng":12.3908
+,"lng":6.6772
+,"lng":6.8492
+,"lng":6.5375
+,"lng":-71.625809
+,"lng":-105.89595
+,"lng":-72.919006
+,"lng":-119.037346
+,"lng":6.6181
+,"lng":6.5655
+,"lng":-106.331696
+,"lng":-72.075394
+,"lng":-72.8936
+,"lng":146.44982
+,"lng":147.1328
+,"lng":-117.096107
+,"lng":-121.67865
+,"lng":-83.811553
+,"lng":-117.691544
+,"lng":-121.665688
+,"lng":-119.878601
+,"lng":-120.122086
+,"lng":-72.716705
+,"lng":-72.297806
+,"lng":-111.508118
+,"lng":-71.833412
+,"lng":-72.842613
+,"lng":-71.842003
+,"lng":-109.335037
+,"lng":-117.819099
+,"lng":-116.643562
+,"lng":-75.078117
+,"lng":-70.817528
+,"lng":-120.090012
+,"lng":-119.208603
+,"lng":-72.78833
+,"lng":-117.035667
+,"lng":-111.859703
+,"lng":-111.657082
+,"lng":-106.949158
+,"lng":-79.989998
+,"lng":11.0092
+,"lng":-111.600708
+,"lng":-120.233299
+,"lng":10.264
+,"lng":-106.805733
+,"lng":-121.421242
+,"lng":-72.786873
+,"lng":-72.906303
+,"lng":-120.333206
+,"lng":-72.879318
+,"lng":-70.315147
+,"lng":-119.9132
+,"lng":-70.907394
+,"lng":-115.682602
+,"lng":-114.339996
+,"lng":-120.257957
+,"lng":-105.450699
+,"lng":-107.850723
+,"lng":-74.584641
+,"lng":-106.356155
+,"lng":7.233
+,"lng":-71.519989
+,"lng":-122.922073
+,"lng":-73.870613
+,"lng":-71.236725
+,"lng":-74.259941
+,"lng":-105.764267
+,"lng":-81.11824
