@@ -5,6 +5,8 @@ import SignIn from './SignIn';
 import Results from './Results';
 import WebFont from 'webfontloader';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { connect } from 'react-redux';
+import * as actions from './../actions';
 
 WebFont.load({
   google: {
@@ -13,6 +15,7 @@ WebFont.load({
 });
 
 class App extends Component {
+
   render() {
     return (
       <Router>
@@ -27,4 +30,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default connect()(App);

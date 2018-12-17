@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { fetchUserInput } from './../actions';
+import { fetchWeather } from './../actions';
 import location from './../assets/images/location.svg'
 
 function SearchLocation(props) {
@@ -10,7 +10,7 @@ function SearchLocation(props) {
   function handleResults() {
     console.log(_inputtedState.value);
     const { dispatch } = props;
-    dispatch(fetchUserInput(_inputtedState.value))
+    dispatch(fetchWeather(_inputtedState.value))
   }
 
   return(
