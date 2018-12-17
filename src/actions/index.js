@@ -1,3 +1,14 @@
+import constants from './../constants';
+import Firebase from 'firebase';
+const { firebaseConfig } = constants;
+
+/*eslint-disable */
+firebase.initializeApp(firebaseConfig);
+const resorts = firebase.database().ref('ski-sherpa');
+/*eslint-enable */
+
+console.log(tickets)
+
 const coordsArray = [];
 console.log(coordsArray);
 const statesArray = [];
