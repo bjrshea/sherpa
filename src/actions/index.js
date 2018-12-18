@@ -11,8 +11,7 @@ const resorts = firebase.database().ref('resorts');
 /*eslint-enable */
 
 const coordsArray = [];
-let statesArray = [];
-console.log(statesArray)
+const statesArray = [];
 
 export function getFirebaseResorts(userInput) {
   return function(dispatch) {
@@ -20,12 +19,16 @@ export function getFirebaseResorts(userInput) {
       const resort = Object.assign({}, data.val(), {
         id: data.getKey()
       });
-        if (resort.resortState === userInput) {
-          statesArray.push(resort);
-        }
+      dispatch(receiveResorts(resort))
     });
-    dispatch(receiveResorts(statesArray));
   };
+};
+
+function receiveResorts(resortsFromFirebase) {
+  return {
+    type: 'RECEIVE_RESORTS',
+    resorts: resortsFromFirebase
+  }
 };
 
 export function fetchWeather(inputtedState) {
@@ -39,9 +42,7 @@ export function fetchWeather(inputtedState) {
   };
 };
 
-function receiveResorts(resortsFromFirebase) {
-  return {
-    type: 'RECEIVE_RESORTS',
-    resorts: resortsFromFirebase
-  }
-};
+
+// if (resort.resortState === userInput) {
+//   statesArray.push(resort);
+// }

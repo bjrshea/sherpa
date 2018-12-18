@@ -11,13 +11,14 @@ import { Provider } from 'react-redux';
 
 const store = createStore(rootReducer, applyMiddleware(middlewareLogger, thunkMiddleware));
 
-let unsubscribe = store.subscribe(() =>
-  console.log(store.getState())
-);
+// let unsubscribe = store.subscribe(() =>
+//   console.log(store.getState())
+// );
 
 ReactDOM.render(
   <Provider store={store}>
    <App />
  </Provider>,
   document.getElementById('root'));
+
 serviceWorker.unregister();

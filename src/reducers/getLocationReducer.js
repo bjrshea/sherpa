@@ -3,7 +3,7 @@ export default (state = {}, action) => {
   switch(action.type) {
     case 'RECEIVE_RESORTS':
       newState = Object.assign({}, state);
-      newState = action.resorts;
+      newState[action.resorts.id] = action.resorts;
       return newState;
     default:
       return state;
