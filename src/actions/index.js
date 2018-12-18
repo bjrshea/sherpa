@@ -1,4 +1,5 @@
 import constants from './../constants';
+import { openWeatherKey } from './../constants/openWeatherKey';
 /*eslint-disable */
 import Firebase from 'firebase';
 /*eslint-enable */
@@ -10,7 +11,8 @@ const resorts = firebase.database().ref('resorts');
 /*eslint-enable */
 
 const coordsArray = [];
-const statesArray = [];
+let statesArray = [];
+console.log(statesArray)
 
 export function getFirebaseResorts(userInput) {
   return function(dispatch) {
@@ -18,7 +20,7 @@ export function getFirebaseResorts(userInput) {
       const resort = Object.assign({}, data.val(), {
         id: data.getKey()
       });
-        if (resort.state === userInput) {
+        if (resort.resortState === userInput) {
           statesArray.push(resort);
         }
     });
@@ -28,7 +30,7 @@ export function getFirebaseResorts(userInput) {
 
 export function fetchWeather(inputtedState) {
   return function (dispatch) {
-    return fetch(`http://api.openweathermap.org/data/2.5/weather?lat=&lon=&APPID=`).then(
+    return fetch(`http://api.openweathermap.org/data/2.5/weather?lat=&lon=&APPID=${openWeatherKey}`).then(
       response => response.json(),
       error => console.log('An error occurred.', error)
     ).then(function(json) {
@@ -40,6 +42,6 @@ export function fetchWeather(inputtedState) {
 function receiveResorts(resortsFromFirebase) {
   return {
     type: 'RECEIVE_RESORTS',
-    resort: resortsFromFirebase
+    resorts: resortsFromFirebase
   }
 };
