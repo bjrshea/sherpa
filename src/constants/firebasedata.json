@@ -1,12 +1,55 @@
-[{"mtnId":"49-degrees-north","name":"49 Degrees North","state":"Washington","runs":"82","lat":48.302353,"lng":-117.564011},
-{"mtnId":"abasin","name":"Arapaho Basin","state":"Colorado","runs":"145","lat":39.642464,"lng":-105.871872},
-{"mtnId":"alpine","name":"Alpine Meadows","state":"California","runs":"100","lat":39.148201,"lng":-120.150902},
-{"mtnId":"alta","name":"Alta","state":"Utah","runs":"116","lat":40.583828,"lng":-111.63726},
-{"mtnId":"alyeska","name":"Alyeska","state":"Alaska","runs":"73a","lat":60.961445,"lng":-149.102676},
-{"mtnId":"angel-fire","name":"Angel Fire","state":"New Mexico","runs":"80","lat":36.387402,"lng":-105.273903},
-{"mtnId":"aspen-highlands","name":"Aspen Highlands","state":"Colorado","runs":"118","lat":39.182522,"lng":-106.855904},
-{"mtnId":"aspen-mountain","name":"Aspen Mountain","state":"Colorado","runs":"76","lat":39.186714,"lng":-106.819275},
-{"mtnId":"attitash","name":"Attitash","state":"New Hampshire","runs":"68","lat":44.077778,"lng":-71.282776},
-{"mtnId":"beavercreek","name":"Beaver Creek","state":"Colorado","runs":"149","lat":39.600464,"lng":-106.517899},
-{"mtnId":"big-sky","name":"Big Sky","state":"Montana","runs":"250","lat":45.283333,"lng":-106.517899,"lng":-111.401389},
-{"mtnId":"big-white","name":"Big White","state":"British Columbia","runs":"119","lat":49.888,"lng":-119.495399}]
+{
+  "resorts" : {
+    "0" : {
+      "mtnId":"49-degrees-north",
+      "name":"49 Degrees North",
+      "resortState":"Washington",
+      "runs":"82",
+      "lat":48.302353,
+      "lng":-117.564011
+    },
+    "1" : {
+      "mtnId":"abasin",
+      "name":"Arapaho Basin",
+      "resortState":"Colorado",
+      "runs":"145",
+      "lat":39.642464,
+      "lng":-105.871872
+    },
+    "2" : {
+      "mtnId":"alpine",
+      "name":"Alpine Meadows",
+      "resortState":"California",
+      "runs":"100",
+      "lat":39.148201,
+      "lng":-120.150902
+    },
+    "3" : {
+      "mtnId":"alta","name":"Alta","resortState":"Utah","runs":"116","lat":40.583828,"lng":-111.63726
+    },
+    "4" : {
+      "mtnId":"alyeska","name":"Alyeska","resortState":"Alaska","runs":"73a","lat":60.961445,"lng":-149.102676
+    },
+    "5" : {
+      "mtnId":"angel-fire","name":"Angel Fire","resortState":"New Mexico","runs":"80","lat":36.387402,"lng":-105.273903
+    },
+    "6" : {
+      "mtnId":"aspen-highlands","name":"Aspen Highlands","resortState":"Colorado","runs":"118","lat":39.182522,"lng":-106.855904
+    },
+    "7" : {
+      "mtnId":"aspen-mountain","name":"Aspen Mountain","resortState":"Colorado","runs":"76","lat":39.186714,"lng":-106.819275
+    },
+    "8" : {
+      "mtnId":"attitash","name":"Attitash","resortState":"New Hampshire","runs":"68","lat":44.077778,"lng":-71.282776
+    },
+    "9" : {
+      "mtnId":"beavercreek","name":"Beaver Creek","resortState":"Colorado","runs":"149","lat":39.600464,"lng":-106.517899
+    },
+    "10" : {
+      "mtnId":"big-sky","name":"Big Sky","resortState":"Montana","runs":"250","lat":45.283333,"lng":-106.517899,"lng":-111.401389
+    },
+    "11" : {
+      "mtnId":"big-white","name":"Big White","resortState":"British Columbia","runs":"119","lat":49.888,"lng":-119.495399
+    }
+  }
+}

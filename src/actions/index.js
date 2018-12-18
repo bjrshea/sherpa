@@ -1,18 +1,30 @@
 import constants from './../constants';
+/*eslint-disable */
 import Firebase from 'firebase';
+/*eslint-enable */
 const { firebaseConfig } = constants;
 
 /*eslint-disable */
 firebase.initializeApp(firebaseConfig);
-const resorts = firebase.database().ref('ski-sherpa');
+const resorts = firebase.database().ref('resorts');
 /*eslint-enable */
 
-console.log(resorts)
-
 const coordsArray = [];
-console.log(coordsArray);
 const statesArray = [];
-console.log(statesArray);
+
+export function getFirebaseResorts(userInput) {
+  return function(dispatch) {
+    resorts.on('child_added', data => {
+      const resort = Object.assign({}, data.val(), {
+        id: data.getKey()
+      });
+        if (resort.state === userInput) {
+          statesArray.push(resort);
+        }
+    });
+    dispatch(receiveResorts(statesArray));
+  };
+};
 
 export function fetchWeather(inputtedState) {
   return function (dispatch) {
@@ -25,8 +37,9 @@ export function fetchWeather(inputtedState) {
   };
 };
 
-// export function fetchLocation() {
-//   coordsArray.forEach(function(lngAndLat) {
-//     console.log(lngAndLat);
-//   });
-// }
+function receiveResorts(resortsFromFirebase) {
+  return {
+    type: 'RECEIVE_RESORTS',
+    resort: resortsFromFirebase
+  }
+};
