@@ -1,6 +1,7 @@
 export default (state = {}, action) => {
   let newState;
   let liftieState;
+  let weatherState;
   switch(action.type) {
     case 'RECEIVE_RESORTS':
       newState = Object.assign({}, state);
@@ -22,3 +23,21 @@ export default (state = {}, action) => {
       return state;
   }
 }
+
+
+
+// case 'RECEIVE_WEATHER':
+// console.log(action.firebaseId)
+// weatherState = Object.assign({}, state[action.firebaseId], {
+//   ['weather']: {
+//     tempFeelsLike: action.tempFeelsLike,
+//     tempActual: action.tempActual,
+//     windSpeed: action.windSpeed,
+//     description: action.description,
+//     gif: action.gif
+//   }
+// });
+// newState = Object.assign({}, state, {
+//   [action.firebaseId]: liftieState
+// });
+// return newState;

@@ -12,7 +12,6 @@ function ResultsList({ resorts }) {
           name={resort.name}
           resortState={resort.resortState}
           runs={resort.runs}
-          website={resort.liftie.websites}
           />
       })}
     </div>
