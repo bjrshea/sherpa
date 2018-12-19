@@ -25,9 +25,8 @@ export default (state = {}, action) => {
 }
 
 
-
+// 
 // case 'RECEIVE_WEATHER':
-// console.log(action.firebaseId)
 // weatherState = Object.assign({}, state[action.firebaseId], {
 //   ['weather']: {
 //     tempFeelsLike: action.tempFeelsLike,
