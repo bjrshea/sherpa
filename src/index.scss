@@ -95,6 +95,32 @@ body {
   }
 }
 
+.resort-info {
+  margin-top: 20px;
+  &:last-child {
+    margin-bottom: 20px;
+  }
+  width: 50%;
+  height: 20%;
+  border: 2px solid black;
+  text-align: center;
+  background-color: white;
+  padding: 10px 0;
+}
+
+.results-container {
+  display: flex;
+  border: 2px solid pink;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name {
+  font-family: 'Amatic SC', cursive;
+  padding-bottom: 5px;
+}
+
 
 // SNOW EFFECTS
 $s--near: 10s;

@@ -10,39 +10,84 @@ firebase.initializeApp(firebaseConfig);
 const resorts = firebase.database().ref('resorts');
 /*eslint-enable */
 
-const coordsArray = [];
-const statesArray = [];
-
 export function getFirebaseResorts(userInput) {
   return function(dispatch) {
     resorts.on('child_added', data => {
       const resort = Object.assign({}, data.val(), {
         id: data.getKey()
       });
-      dispatch(receiveResorts(resort))
+      if (userInput === resort.resortState) {
+        dispatch(receiveResorts(resort))
+        dispatch(fetchMtnId(resort.mtnId, resort.id))
+      }
     });
   };
 };
 
-function receiveResorts(resortsFromFirebase) {
+function receiveResorts(resortFromFirebase) {
   return {
     type: 'RECEIVE_RESORTS',
-    resorts: resortsFromFirebase
+    resorts: resortFromFirebase
   }
 };
 
-export function fetchWeather(inputtedState) {
+export function fetchMtnId(mtnId, id) {
   return function (dispatch) {
-    return fetch(`http://api.openweathermap.org/data/2.5/weather?lat=&lon=&APPID=${openWeatherKey}`).then(
+    return fetch(`https://liftie.info/api/resort/${mtnId}`).then(
       response => response.json(),
       error => console.log('An error occurred.', error)
     ).then(function(json) {
-      console.log(json)
-    })
+      const website = json.href;
+      const firebaseId = id;
+      const mtnId = json.id;
+      const liftsOpen = json.lifts.stats.open;
+      const liftsClosed = json.lifts.stats.closed;
+      dispatch(receiveLiftie(website, firebaseId, mtnId, liftsOpen, liftsClosed))
+    });
   };
 };
+
+// dispatch(receiveLiftie(websiteArray))
+function receiveLiftie(website, firebaseId, mtnId, liftsOpen, liftsClosed) {
+  return {
+    type: 'RECEIVE_LIFTIE',
+    mtnId: mtnId,
+    firebaseId: firebaseId,
+    website: website,
+    liftsOpen: liftsOpen,
+    liftsClosed: liftsClosed
+  }
+};
+
+
+
+// export function fetchWeather(lat, lng) {
+//   console.log(lat, lng)
+//   return function (dispatch) {
+//     return fetch('http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lng + '&APPID=' + openWeatherKey).then(
+//       response => response.json(),
+//       error => console.log('An error occurred.', error)
+//     ).then(function(json) {
+//       const temp = json.main.temp;
+//       const skies = json.weather[0].main;
+//       console.log(temp)
+//       dispatch(receiveWeather(temp, skies))
+//     });
+//   };
+// };
+//
+// function receiveWeather(temp, skies) {
+//   return {
+//     type: 'RECEIVE_WEATHER',
+//     temp: temp,
+//     skies: skies
+//   }
+// };
 
 
 // if (resort.resortState === userInput) {
 //   statesArray.push(resort);
 // }
+
+// 45.3318
+// 121.6652

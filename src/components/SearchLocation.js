@@ -8,7 +8,6 @@ function SearchLocation(props) {
   let _inputtedState = null;
 
   function handleResults() {
-    console.log(_inputtedState.value);
     const { dispatch } = props;
     dispatch(getFirebaseResorts(_inputtedState.value))
   }

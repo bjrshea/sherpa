@@ -2,13 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Results({ name, resortState, runs }) {
-  console.log(name)
   return(
-  <div className="user-creds">
-    <h1>{name}</h1>
-    <h1>{resortState}</h1>
-    <h1>{runs}</h1>
-  </div>
+    <div className="resort-info">
+      <h1 className="name">{name}</h1>
+      <h3>{resortState}</h3>
+      <h3>Runs: {runs}</h3>
+    </div>
   );
 }
 
