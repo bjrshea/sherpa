@@ -15,12 +15,14 @@ WebFont.load({
   }
 });
 
+
 class App extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
+    console.log(this.props.resorts)
     return (
       <Router>
         <div className="App">

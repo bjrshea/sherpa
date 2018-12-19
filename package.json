@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "base64-img": "^1.0.4",
     "firebase": "^3.0.0",
     "node-sass": "^4.10.0",
     "react": "^16.6.3",

@@ -4,6 +4,7 @@ import UserCreds from './UserCreds';
 import mountains from './../assets/images/background2.svg';
 
 function Hero() {
+  console.log(mountains);
   return(
   <div>
     <div className="winter-is-coming">
