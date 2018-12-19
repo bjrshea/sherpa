@@ -18,7 +18,7 @@ export function getFirebaseResorts(userInput) {
       if (userInput === resort.resortState) {
         dispatch(receiveResorts(resort));
         dispatch(fetchMtnId(resort.mtnId, resort.id));
-        // dispatch(fetchWeather(resort.lat, resort.lng, resort.id));
+        dispatch(fetchWeather(resort.lat, resort.lng, resort.id));
       }
     });
   };
@@ -58,13 +58,13 @@ function receiveLiftie(website, firebaseId, mtnId, liftsOpen, liftsClosed) {
   }
 };
 
-export function fetchWeather(lat, lng, firebaseId) {
+export function fetchWeather(lat, lng, id) {
   return function (dispatch) {
     return fetch(`http://api.weatherunlocked.com/api/current/${lat},${lng}?app_id=a93272f6&app_key=e6b833a2cb3181ea749617dbd7c3df7c`).then(
       response => response.json(),
       error => console.log('An error occurred.', error)
     ).then(function(json) {
-      const firebaseId = firebaseId;
+      const firebaseId = id;
       const tempFeelsLike = json.feelslike_f;
       const tempActual = json.temp_f;
       const windSpeed = json.windspd_mph;

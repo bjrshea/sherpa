@@ -24,8 +24,6 @@ export default (state = {}, action) => {
   }
 }
 
-
-// 
 // case 'RECEIVE_WEATHER':
 // weatherState = Object.assign({}, state[action.firebaseId], {
 //   ['weather']: {
