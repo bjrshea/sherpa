@@ -198,6 +198,35 @@ body {
   }
 }
 
+.cloud {
+  position: absolute;
+  z-index: -1;
+  &:nth-child(1) {
+    top: 50px;
+    opacity: 0.4;
+    width: 100px;
+    animation: blow 70s linear infinite;
+  }
+  &:nth-child(2) {
+    top: 60px;
+    opacity: 0.6;
+    width: 140px;
+    animation: blow 60s linear infinite reverse;
+  }
+  &:nth-child(3) {
+    opacity: 0.8;
+    width: 180px;
+    animation: blow 50s linear infinite;
+  }
+}
+
+@keyframes blow{
+  from{left: -180px}
+  to{left: 100%}
+}
+
+
+
 // SNOW EFFECTS
 $s--near: 10s;
 $s--mid: ($s--near * 2);

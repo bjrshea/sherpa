@@ -1,12 +1,17 @@
 import React from 'react';
 import SearchLocation from './SearchLocation';
-import bird from './../assets/images/bird.gif';
+import cloud from './../assets/images/cloud.png';
 import mountains from './../assets/images/background2.svg';
 
 function Hero() {
   console.log(mountains);
   return(
   <div>
+    <div className="clouds">
+      <img className="cloud" src={cloud} alt="mountains"/>
+      <img className="cloud" src={cloud} alt="mountains"/>
+      <img className="cloud" src={cloud} alt="mountains"/>
+    </div>
     <div className="logo">
       <h1>Sherpa</h1>
       <h3>your ski resort guide...</h3>
