@@ -22,7 +22,7 @@ import IsoSleetSwrsDay from './IsoSleetSwrsDay.gif';
 import IsoSleetSwrsNight from './IsoSleetSwrsNight.gif';
 import IsoSnowSwrsDay from './IsoSnowSwrsDay.gif';
 import IsoSnowSwrsNight from './IsoSnowSwrsNight.gif';
-import mist from './mist.gif';
+import Mist from './Mist.gif';
 import ModRain from './ModRain.gif';
 import ModRainSwrsDay from './ModRainSwrsDay.gif';
 import ModRainSwrsNight from './ModRainSwrsNight.gif';
@@ -70,7 +70,7 @@ const allTheGifs = {
   IsoSleetSwrsNight: IsoSleetSwrsNight,
   IsoSnowSwrsDay: IsoSnowSwrsDay,
   IsoSnowSwrsNight: IsoSnowSwrsNight,
-  mist: mist,
+  Mist: Mist,
   ModRain: ModRain,
   ModRainSwrsDay: ModRainSwrsDay,
   ModRainSwrsNight: ModRainSwrsNight,

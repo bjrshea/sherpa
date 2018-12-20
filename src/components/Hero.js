@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchLocation from './SearchLocation';
+import bird from './../assets/images/bird.gif';
 import mountains from './../assets/images/background2.svg';
 
 function Hero() {

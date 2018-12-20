@@ -2,12 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import websiteIcon from './../assets/images/website.png';
 import twitterIcon from './../assets/images/twitter.png';
-import black_diamond from './../assets/images/black_diamond.svg';
-import blue from './../assets/images/blue.svg';
-import green from './../assets/images/green.png';
+import blackPic from './../assets/images/black_diamond.svg';
+import dblBlackPic from './../assets/images/dbl_black.png';
+import bluePic from './../assets/images/blue.svg';
+import greenPic from './../assets/images/green.png';
 import allTheGifs from './../assets/weatherGifs/index';
 
-function Results({ name, resortState, runs, liftsClosed, liftsOpen, website, twitter, description, gif, tempActual, tempFeelsLike, windSpeed }) {
+function Results({ name, resortState, runs, green, blue, black, dblBlack, liftsClosed, liftsOpen, website, twitter, description, gif, tempActual, tempFeelsLike, windSpeed }) {
   const totalLifts = liftsOpen + liftsClosed;
   return(
     <div className="resort-info">
@@ -16,17 +17,22 @@ function Results({ name, resortState, runs, liftsClosed, liftsOpen, website, twi
       </div>
       <div className="resort-details">
         <div className="runs-info">
-          <h3>{runs} total runs</h3>
           <div className="ski-runs-box">
-            <img className="ski-runs" src={black_diamond} alt="black_diamond"/>
-            <img className="ski-runs" src={blue} alt="blue square"/>
-            <img className="ski-runs" src={green} alt="green circle"/>
+            <img className="ski-runs" src={greenPic} alt="green circle"/>
+            <img className="ski-runs" src={bluePic} alt="blue square"/>
+            <img className="ski-runs" src={blackPic} alt="black diamond"/>
+            <img className="ski-runs" src={dblBlackPic} alt="double black diamond"/>
           </div>
+          <h3 className="total-runs">{runs} total runs</h3>
+          <p>{green}</p>
+          <p>{blue}</p>
+          <p>{black}</p>
+          <p>{dblBlack}</p>
         </div>
         <div className="lifts-info">
           <h3>{totalLifts} total lifts</h3>
-          <p>Lifts open: {liftsOpen}</p>
-          <p>Lifts closed: {liftsClosed}</p>
+          <p>{liftsOpen} open ✔</p>
+          <p>{liftsClosed} closed ✘</p>
         </div>
       </div>
       <div className="icons-box">
@@ -36,9 +42,9 @@ function Results({ name, resortState, runs, liftsClosed, liftsOpen, website, twi
       <div className="weather-info">
         <p>{description}</p>
         <img src={allTheGifs[gif]}/>
-        <p>{tempActual}</p>
-        <p>{tempFeelsLike}</p>
-        <p>{windSpeed}</p>
+        <p>temperature is {tempActual}°</p>
+        <p>feels like {tempFeelsLike}°</p>
+        <p>wind speed is {windSpeed} mph</p>
       </div>
     </div>
   );
@@ -51,6 +57,3 @@ Results.propTypes = {
 }
 
 export default Results;
-
-// remove .gif from gif and store in let
-// allTheGife.{let}

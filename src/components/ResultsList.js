@@ -20,6 +20,10 @@ function ResultsList({ resorts }) {
           name={resort.resortInfo.name}
           resortState={resort.resortInfo.resortState}
           runs={resort.resortInfo.runs}
+          green={resort.resortInfo.green}
+          blue={resort.resortInfo.blue}
+          black={resort.resortInfo.black}
+          dblBlack={resort.resortInfo.dbl_black}
           liftsClosed={resort.liftie.liftsClosed}
           liftsOpen={resort.liftie.liftsOpen}
           website={resort.liftie.website}
