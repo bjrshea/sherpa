@@ -71,3 +71,10 @@ function receiveResorts(resort, twitter, website, liftsOpen, liftsClosed, tempFe
     gif: gif
   }
 };
+
+export function resetState() {
+  console.log('do i work?');
+  return {
+    type: 'RESET_STATE'
+  }
+}

@@ -1,5 +1,6 @@
 export default (state = {}, action) => {
   let newState;
+  let resetState
   let liftieState;
   switch(action.type) {
     case 'RECEIVE_RESORTS': {
@@ -26,6 +27,10 @@ export default (state = {}, action) => {
         [action.resorts.id]: liftieState
       });
       return newState;
+    }
+    case 'RESET_STATE': {
+      resetState = Object.assign({}, newState, {});
+      return resetState;
     }
    default: {
      return state;
