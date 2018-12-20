@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from './Nav';
 import Hero from './Hero';
 import SignUp from './SignUp';
 import SignIn from './SignIn';
@@ -26,6 +27,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <Nav/>
           <Route exact path="/" component={Hero} />
           <Route exact path="/results" render={()=><ResultsList resorts={this.props.resorts}/>}/>
           <Route exact path="/sign-up" component={SignUp} />

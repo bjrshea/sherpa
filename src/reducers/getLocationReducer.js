@@ -10,6 +10,7 @@ export default (state = {}, action) => {
         ['resortInfo']: action.resorts,
         ['liftie']: {
           website: action.website,
+          twitter: action.twitter,
           liftsOpen: action.liftsOpen,
           liftsClosed: action.liftsClosed
         },

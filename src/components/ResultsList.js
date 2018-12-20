@@ -1,6 +1,7 @@
 import React from 'react';
 import Results from './Results'
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 function ResultsList({ resorts }) {
   return(
@@ -14,6 +15,7 @@ function ResultsList({ resorts }) {
           liftsClosed={resort.liftie.liftsClosed}
           liftsOpen={resort.liftie.liftsOpen}
           website={resort.liftie.website}
+          twitter={resort.liftie.twitter}
           description={resort.weather.description}
           gif={resort.weather.gif}
           tempActual={resort.weather.tempActual}

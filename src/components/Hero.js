@@ -1,6 +1,5 @@
 import React from 'react';
 import SearchLocation from './SearchLocation';
-import UserCreds from './UserCreds';
 import mountains from './../assets/images/background2.svg';
 
 function Hero() {
@@ -15,7 +14,6 @@ function Hero() {
       <div className="snow snow--far"></div>
       <div className="snow snow--far snow--alt"></div>
     </div>
-    <UserCreds/>
     <div className="logo">
       <h1>Sherpa</h1>
       <h3>your ski resort guide...</h3>
