@@ -100,19 +100,26 @@ body {
   &:last-child {
     margin-bottom: 20px;
   }
-  width: 50%;
-  height: 20%;
+  width: 40%;
+  height: 300px;
   border: 2px solid black;
   text-align: center;
   background-color: white;
-  padding: 10px 0;
+  .resort-header {
+    border-bottom: solid black 2px;
+    background-color: grey;
+  }
+  .resort-details {
+    .resort-details-header {
+      border-bottom: 1px solid black;
+    }
+  }
 }
 
 .results-container {
   display: flex;
   border: 2px solid pink;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
 }
 
@@ -194,3 +201,36 @@ $ease--out-quad: cubic-bezier(.25,.46,.450,.94);
     transform: translate3D(7.5%,100%, 0);
   }
 }
+
+// .resorts {
+//   display: flex;
+//   justify-content: space-between;
+//   margin-top: 20px;
+//   &:last-child {
+//     margin-bottom: 20px;
+//   }
+//   width: 50%;
+//   height: 20%;
+//   border: 2px solid black;
+//   background-color: white;
+//   padding: 10px 0;
+//   .weather {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-top: 10px;
+//     padding-left: 20px;
+//     padding-right: 15px;
+//     border-right: 2px solid black;
+//     img {
+//       width: 60px;
+//       height: 50px;
+//     }
+//   }
+//   .resort-info {
+//     display: flex;
+//     margin-right: 50px;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+// }

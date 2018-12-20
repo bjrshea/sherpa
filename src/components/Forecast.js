@@ -1,14 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import allTheGifs from './../assets/weatherGifs/index';
 
-function Results({ name, resortState, runs, liftsClosed, liftsOpen, website, description, gif, tempActual, tempFeelsLike, windSpeed }) {
+function Forecast({ description, gif, tempActual, tempFeelsLike, windSpeed }) {
   return(
     <div className="resort-info">
-      <p>{liftsClosed}</p>
-      <p>{liftsOpen}</p>
-      <p>{website}</p>
       <p>{description}</p>
-      <p>{gif}</p>
+      <img src={allTheGifs[gif]}/>
       <p>{tempActual}</p>
       <p>{tempFeelsLike}</p>
       <p>{windSpeed}</p>
@@ -16,10 +14,10 @@ function Results({ name, resortState, runs, liftsClosed, liftsOpen, website, des
   );
 }
 
-Results.propTypes = {
-  name: PropTypes.string,
-  resortState: PropTypes.string,
-  runs: PropTypes.string,
-}
+// Results.propTypes = {
+//   name: PropTypes.string,
+//   resortState: PropTypes.string,
+//   runs: PropTypes.string,
+// }
 
-export default Results;
+export default Forecast;
