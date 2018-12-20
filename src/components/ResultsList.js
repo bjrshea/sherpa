@@ -6,6 +6,14 @@ import { Link } from 'react-router-dom';
 function ResultsList({ resorts }) {
   return(
     <div className="results-container">
+      <div className="winter-is-coming">
+        <div className="snow snow--near"></div>
+        <div className="snow snow--near snow--alt"></div>
+        <div className="snow snow--mid"></div>
+        <div className="snow snow--mid snow--alt"></div>
+        <div className="snow snow--far"></div>
+        <div className="snow snow--far snow--alt"></div>
+      </div>
       {Object.keys(resorts).map(function(id) {
         var resort = resorts[id];
         return <Results key={id}

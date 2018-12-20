@@ -29,7 +29,7 @@ export function fetchMtnId(resort) {
       error => console.log('An error occurred.', error)
     ).then(function(json) {
       console.log(json)
-      const twitter = json.twitter;
+      const twitter = json.twitter.user;
       const website = json.href;
       const liftsOpen = json.lifts.stats.open;
       const liftsClosed = json.lifts.stats.closed;

@@ -111,12 +111,13 @@ body {
 }
 
 .resort-info {
+  z-index: 500;
   margin-top: 20px;
   &:last-child {
     margin-bottom: 20px;
   }
   width: 40%;
-  height: 300px;
+  height: auto;
   border: 2px solid black;
   text-align: center;
   background-color: white;
@@ -125,13 +126,16 @@ body {
     background-color: #ECEBE4;
   }
   .resort-details {
+    margin-top: 15px;
     font-family: arial;
-    .resort-details-header {
-      padding: 10px 0;
-    }
   }
 }
 
+.weather-info {
+  margin-top: 170px;
+  padding: 10px 0;
+  border-top: 2px solid black;
+}
 .results-container {
   display: flex;
   align-items: center;
@@ -145,7 +149,7 @@ body {
 
 .icons-box {
   position: absolute;
-  margin-top: 90px;
+  margin-top: 115px;
   margin-left: 20px;
   .icons {
     height: 40px;
@@ -158,6 +162,16 @@ body {
   .home-button {
     height: 40px;
     width: 40px;
+  }
+}
+
+.ski-runs-box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  .ski-runs {
+    width: 20px;
+    height: 20px;
   }
 }
 
