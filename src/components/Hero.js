@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchLocation from './SearchLocation';
 import cloud from './../assets/images/cloud.png';
-import mountains from './../assets/images/background2.svg';
+import mountains from './../assets/images/background.svg';
 
 function Hero() {
   console.log(mountains);
