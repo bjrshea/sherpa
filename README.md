@@ -81,5 +81,3 @@
 ### Other tools:
 
 * Sketch
-
-## Links
